@@ -5,5 +5,5 @@ data class User(
     val name: String,
     val email: String
 ) {
-    fun getDisplayName(): String = "Name: $name"
+    fun getDisplayName(): String = "MEMBER: $name"
 }
